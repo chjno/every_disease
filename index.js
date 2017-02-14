@@ -8,10 +8,10 @@ var tweeted = [];
 if (process.env.creds) {
   console.log('process.env.creds == true');
   creds = {
-    consumer_key: process.env.CK,
-    consumer_secret: process.env.CS,
-    access_token: process.env.AT,
-    access_token_secret: process.env.ATS
+    consumer_key: process.env.K,
+    consumer_secret: process.env.S,
+    access_token: process.env.T,
+    access_token_secret: process.env.TS
   };
 } else {
   console.log('process.env.creds == false');
